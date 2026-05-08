@@ -1,0 +1,87 @@
+Original Source of Model
+	https://makerworld.com/en/models/487870-quick-disconnect-ventilation-v3-by-oiass#profileId-401179
+
+
+	TheLab version of the original design went through a couple of iterations. It originally modified to support hose to hose connection. At the time it
+	was thought we would use small conversion hose pieces. Thus the 4" outlet on the larger machines would have a short hose hooked to its outlet tube
+	with a permanent hose clamp. The other end of that conversion hose would connect to one half of the hose-hose quick connector. The other side of the
+	quick connector then would hook to the collector hose going to the large vacuum machine.
+
+	Later it was deemed more efficient to just modify the original hose side by adjusting its tube component to wrap snugly around the machines outlet port, 
+	then secure that in place with a simple screw. That then connects directly to the hose side of the quick connector.
+	
+	Thus the end result is the machine side for us is really the hose side within the original model and the hose side is really the machine side within the
+	original model with a tube added. For us the hose side has the female flanges, the machine side had the male flanges.
+	
+	Our Machine side Problem:
+		When originally modifying the model design to attach to the tube sticking out of the machine I modified the hose part to be used on the machine side.
+		This due to inexperience using Fusion 360. It was quicker to modify the existing tube on the original hose part than to try to learn how to add a
+		tube to the machine part within Fusion 360. Hindsight says that was probably a mistake, we should have just taken the time to learn how to add a
+		tube to the original designs machine side connector.
+
+	Our Hose Side:
+		Our hose side adapter is the original design's machine side of the connector, the side with the female flange part. Due to lack of Fusion 360 knowledge
+		this sides extension tube was designed/added via Bambu Studio. The tube sizing was done via the trial and error process.
+
+		To print the part we exported both flange parts from within Fusion 360 as .stl files. Then within Bambu Studio:
+			1. Imported both .stl files into Bambu, we will  be adding a tube to the female flange part.
+ 			2. Slice the male flange part containing the tube into two pieces, leaving just the tube part with no part of the flange included. We
+			   have no more need for the male flange.
+			3. adjust the diameter of the tube to fit within the collection hose, in our case a 4" hose.
+			4. copy/move the sliced tube part over to the female flange part
+			5. Adjust the tube on the female flange part to where it extends out the flat/non-flange side of the connector. You should have the female
+			   flange connecting part with the tube extending out the opposite side of the connector.
+			6. When printing this component, due to no one side of the component being entirely flat, one must use a rather large amount of scaffolding supports.
+			   To avoid this we cut the model within Bambu Studio such that both parts would have a flat side. Then printed the two separate parts and
+			   finally glued the resulting parts back together with CA glue and activator.
+			   Again hindsight says we probably should have just accepted the scaffolding required, making a stronger component.
+
+
+	To make the secondary connector for a hose to hose application:
+		The Common models male flange part can be printed as is
+		1. Within Fusion 360 export the male flange part as a .stl file
+		2. Print as is from within Bambu Studio 
+
+
+	To make the machine side connection
+	
+		The male flange component will attach to each machine's individually sized exhaust port.
+		Within Fusion 360 I have modified the original models male flange component's tube part to snugly fit around the outside of the target machine's
+		output tube. Seems each machine is just a tad bit different when it comes to fitting a solid tube over a solid tube.
+		Hindsight again says we probably could have designed the male flange part tube to be a tapered part.
+   
+
+	There are currently 5 models:
+	1. TheLab_common.fd3
+		The common Fusion file used to print the following:
+		
+		1.  The female flange part is used to craft the component that connects to the hose going to the vacuum machine. This will hook to the machine's
+			counter part as well as the hose to hose counter part.
+
+			To print the part we export both flange parts from within Fusion 360 as .stl files. Then within Bambu Studio we will be adding a tube to
+			the female flange part:
+			1. Imported both .stl files into Bambu
+ 			2. Slice the male flange part containing the tube into two pieces, leaving just the tube part with no part of the flange included. We
+			   have no more need for the male flange.
+			3. adjust the diameter of the tube to fit within the collection hose, in our case a 4" hose.
+			4. copy/move the sliced tube part over to the female flange part
+			5. Adjust the tube on the female flange part to where it extends out the flat/non-flange side of the connector. You should have the female
+			   flange connecting part with the tube extending out the opposite side of the connector.
+			6. When printing this component, due to no one side of the component being entirely flat, one must use a rather large amount of scaffolding supports.
+			   To avoid this we cut the model within Bambu Studio such that both parts would have a flat side. Then printed the two separate parts and
+			   finally glued the resulting parts back together with CA glue and activator.
+			   Again hindsight says we probably should have just accepted the scaffolding required, making a stronger component.
+
+		2. The male flange side can be printed as is for a hose to hose connection
+
+	Each machine has a customized size for the male flange's tube, usually the diameter. It's adjusted for a snug fit over the target machines output tube.
+
+	2. TheLab_Jointer.fd3
+		The models male flange tube size within fusion has been adjusted to fix snugly over the machines existing tube
+	3. TheLab_Planer.fd3
+		The models male flange tube size within fusion has been adjusted to fix snugly over the machines existing tube
+	4. TheLab_Tablesaw.fd3
+		The models male flange tube size within fusion has been adjusted to fix snugly over the machines existing tube
+	5. TheLab_Mitre.fd3
+		The models male flange tube size within fusion has been adjusted to fix snugly over the machines existing tube`
+		  

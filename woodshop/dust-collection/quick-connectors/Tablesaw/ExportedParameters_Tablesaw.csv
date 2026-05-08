@@ -1,0 +1,29 @@
+Name,Unit,Expression,Value,Comments,Favorite
+outer_diameter,mm,140 mm,140.00,,false
+inner_diameter,mm,bolt_offset * 2 + 3 mm,105.00,,false
+flange_diameter,mm,11.2 mm,11.20,,false
+flange_length,deg,45 deg,45.0,,false
+bolt_offset,mm,51 mm,51.00,"For backwards compatability for any holes you've already drilled: (V1 use 52.494) ,( V2 [parametric] use 53.25 mm)",true
+bolt_hole,mm,3.6 mm,3.60,,false
+bolt_countersink,mm,0.001 mm,0.001,,false
+bolt_count,,3,3,Number of bolts,true
+flange_count,,3,3,"Minimum of 2, Maximum of 4. Recommended to keep on 3.",true
+flange_height,mm,thickness + flange_cutout * 2 + thickness * 0.75,19.00,,false
+thickness,mm,4 mm,4.00,,false
+flange_offset,mm,1 mm,1.00,,false
+flange_cutout,mm,6 mm,6.00,,false
+tolerance,mm,0.2 mm,0.20,Increase this value if the fit is too tight when twisting closed. Note: This effects the Source Coupling body.,true
+tube_inner,mm,97.2 mm,97.20,,false
+tube_thickness,mm,6 mm,6.00,,false
+rib_length,deg,3 deg,3.0,,false
+flange_cut,deg,40 deg,40.0,,false
+tube_height,mm,35 mm,35.00,,false
+rib_count,,16,16,,false
+brace_count,,8,8,,false
+handle_diameter,mm,76 mm,76.00,,false
+handle_flange,mm,4 mm,4.00,,false
+handle_height,mm,32 mm,32.00,,false
+handle_offset,mm,4 mm,4.00,,false
+handle_chamfer,mm,3 mm,3.00,,false
+hexagon_diameter,mm,36 mm,36.00,,false
+hexagon_height,mm,32 mm,32.00,,false
