@@ -1,0 +1,10 @@
+Name,Unit,Expression,Value,Comments,Favorite
+end1_inside_diameter_inner_ring,mm,95.6 mm,95.60,,false
+end1_inside_diameter_outer_ring,mm,95.6 mm,95.60,,false
+end2_inside_diameter_inner_ring,mm,38.8 mm,38.80,,false
+end2_inside_diameter_outer_ring,mm,39 mm,39.00,,false
+end1_length,mm,50.8 mm,50.80,,false
+end2_length,mm,65 mm,65.00,,false
+end1_to_end2_center_body_length,mm,50 mm,50.00,,false
+end1_to_end2_offset,mm,0 mm,0.00,,false
+wall_thickness,mm,3 mm,3.00,,false
